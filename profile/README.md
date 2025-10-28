@@ -4,7 +4,7 @@
   <img src="img/logo.png" alt="SignBell 로고" width="300" />
 </p>
 
-<p align="center"><b>SignBell - 수어 학습의 시작을 알리는 희망의 종소리</b></p>
+<p align="center"><b>SignBell - 손끝으로 울리는 정답의 순간</b></p>
 <p align="center">AI 기술로 배우고, 게임으로 함께 즐기는 실시간 양방향 수어 학습 플랫폼</p>
 
 <p align="center">
@@ -37,23 +37,23 @@
 
 ##  프로젝트 정보
 
-| 항목 | 내용 |
-| --- | --- |
-| **팀명** | **SynergySign** — *기술과 수어가 만나 시너지를 창출하고, 팀원 간의 협력을 통해 수어 소통의 새로운 가능성을 열어가는 팀* |
-| **프로젝트명** | **SignBell** — *수어 학습의 시작을 알리고, 소통의 즐거움을 전파하는 희망의 종소리* |
-| **플랫폼명** | **SignBell** — *Sign(수어) + Bell(종, 알림). 누구나 자연스럽고 안전하게 수어를 배우는 AI 기반 학습 플랫폼* |
-| **버전** | v1.0.0 |
-| **Base URL** | `http://localhost:8080/` (Backend), `http://localhost:5173` (Frontend), `https://localhost:8000` (FastAPI) |
+| 항목 | 내용                                                                                                         |
+| --- |------------------------------------------------------------------------------------------------------------|
+| **팀명** | **SynergySign** — *기술과 수어가 만나 시너지를 창출하고, 팀원 간의 협력을 통해 수어 소통의 새로운 가능성을 열어가는 팀*                              |
+| **프로젝트명** | **SignBell** — *손끝으로 울리는 정답의 순간*                                                     |
+| **플랫폼명** | **SignBell** — *Sign(수어) + Bell(골든벨). 누구나 자연스럽고 안전하게 수어를 배우는 AI 기반 학습 플랫폼*                                 |
+| **버전** | v1.0.0                                                                                                     |
+| **Base URL** | `http://localhost:8443/` (Backend), `http://localhost:5173` (Frontend), `https://localhost:8000` (FastAPI) |
 
 ---
 
 ##  Getting Started
 
-- [백엔드 설치 및 실행 가이드](https://github.com/SynergySign/signbell-docs/blob/main/04_Guides/setup/Backend_Setup_Guide.md)
-- [프론트엔드 설치 및 실행 가이드](https://github.com/SynergySign/signbell-docs/blob/main/04_Guides/setup/Frontend_Setup_Guide.md)
-- [FastAPI 설치 및 실행 가이드](https://github.com/SynergySign/signbell-docs/blob/main/04_Guides/setup/FastAPI_Setup_Guide.md)
-- [API 스펙 명세서](https://github.com/SynergySign/signbell-docs/blob/main/03_Specifications/SignBell_API_명세서.md)
-- [시스템 아키텍처](https://github.com/SynergySign/signbell-docs/blob/main/02_Architecture/SignBell_시스템_아키텍처.md)
+- [백엔드 및 프론트엔드 설치 및 실행 가이드](https://github.com/SynergySign/SignBell-App/blob/dev/README.md)
+- [FastAPI 설치 및 실행 가이드](https://github.com/SynergySign/SignBell-FASTAPI/blob/dev/README.md)
+- [머신 러닝 설치 및 실행 가이드](https://github.com/SynergySign/SignBell-ML)
+- [API 스펙 명세서](https://github.com/SynergySign/SignBell-Docs/tree/dev/03_Specifications)
+- [시스템 아키텍처](https://github.com/SynergySign/SignBell-Docs/blob/dev/02_Architecture/SignBell%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)
 
 ---
 
@@ -133,13 +133,13 @@ SignBell의 목표는 "수어가 소수만의 언어가 아닌, 누구나 쉽게
 
 ## 팀 구성
 
-| 역할 | 이름 | 주요 담당 기능 | GitHub |
-| --- | --- | --- | --- |
-| 팀장 | [신동준](https://github.com/sdj3959) | Frontend Lead, UI/UX 디자인, 인프라 구축 (AWS EC2/S3/RDS, Kubernetes) | [@sdj3959](https://github.com/sdj3959) |
-| 팀원 | [고동현](https://github.com/rhehdgus8831) | Backend Lead (게임 로직), WebRTC 연동, 시스템 아키텍처 설계 | [@rhehdgus8831](https://github.com/rhehdgus8831) |
-| 팀원 | [백승현](https://github.com/sirosho) | AI/ML Lead, FastAPI 서버 구축, 개인 학습 페이지 개발 | [@sirosho](https://github.com/sirosho) |
-| 팀원 | [송민재](https://github.com/songkey06) | Backend (인증/인가), 카카오 SSO, 마이페이지, DevOps 지원 | [@songkey06](https://github.com/songkey06) |
-| 팀원 | [강관주](https://github.com/Kanggwanju) | Full-Stack (대기방/게임방), 무한 스크롤, 전역 예외 처리 | [@Kanggwanju](https://github.com/Kanggwanju) |
+| 역할 | 이름 | 주요 담당 기능                                                        | GitHub |
+| --- | --- |-----------------------------------------------------------------| --- |
+| 팀장 | [신동준](https://github.com/sdj3959) | Frontend Lead, UI/UX 디자인, 인프라 구축 (AWS EC2/S3/RDS, Kubernetes)   | [@sdj3959](https://github.com/sdj3959) |
+| 팀원 | [고동현](https://github.com/rhehdgus8831) | Backend Lead (게임 로직), Frontend Janus WebRTC 연동, 시스템 아키텍처 설계     | [@rhehdgus8831](https://github.com/rhehdgus8831) |
+| 팀원 | [백승현](https://github.com/sirosho) | AI/ML Lead, FastAPI 서버 구축, 개인 학습 페이지 개발                         | [@sirosho](https://github.com/sirosho) |
+| 팀원 | [송민재](https://github.com/songkey06) | Backend (인증/인가), 카카오 SSO, 마이페이지, DevOps 지원                      | [@songkey06](https://github.com/songkey06) |
+| 팀원 | [강관주](https://github.com/Kanggwanju) | Full-Stack (대기방/게임방),Frontend Janus WebRTC 연동, 무한 스크롤, 전역 예외 처리 | [@Kanggwanju](https://github.com/Kanggwanju) |
 
 ---
 
@@ -148,12 +148,15 @@ SignBell의 목표는 "수어가 소수만의 언어가 아닌, 누구나 쉽게
 **2025.10.07 ~ 2025.10.28**
 
 | **Phase** | **기간** | **주요 내용** |
-| --- | --- | --- |
-| **Phase 1. Planning** | 10.07 ~ 10.09 | 기획, 요구사항 정의, 사용자 페르소나, DB 모델링, 시스템 아키텍처 설계 |
-| **Phase 2. ML Development** | 10.10 ~ 10.18 | AI 모델 개발, 데이터 수집 및 전처리, 학습 및 평가, FastAPI 서버 구축 |
-| **Phase 3. Backend Development** | 10.12 ~ 10.22 | Spring Boot 백엔드 개발, WebSocket 구현, 게임 로직, 인증/인가 |
-| **Phase 4. Frontend Development** | 10.15 ~ 10.25 | React 프론트엔드 개발, WebRTC 연동, UI/UX 구현, API 통합 |
-| **Phase 5. Integration & Deploy** | 10.23 ~ 10.28 | 통합 테스트, 버그 수정, AWS 배포, 문서 정리, 최종 발표 준비 |
+|:--------------------------------| :--- | :--- |
+| **1. 기획 및 설계**                  | 9월 29일 ~ 10월 3일 | 프로젝트 주제 선정, MVP 정의, 핵심 문서 작성 (요구사항, 유저플로우, DB/아키텍처 설계), ML 리서치 |
+| **2. 초기 개발 (AI/ML/Frontend)**   | 10월 4일 ~ 10월 12일 | AI 모델 개발 착수, 학습 데이터 수집, 프론트엔드 와이어프레임 및 기본 UI 작업 |
+| **3. 핵심 기능 개발 (Backend/AI/ML)** | 10월 13일 ~ 10월 19일 | 백엔드 API (WebSocket, REST, JWT 인증) 개발, 국립국어원 API 연동, ML 모델 개발 지속 |
+| **4. 기능 고도화 (Frontend)**        | 10월 20일 ~ 10월 28일 | Janus WebRTC 연동, 백엔드 API 연동(fetch), 전반적인 UI/UX 보강 |
+| **5. 통합, 배포 및 테스트**             | 10월 29일 ~ 10월 30일 | 전 파트(FE/BE/AI) 기능 통합 테스트, 발견 버그 수정, AWS 배포, 문서 최신화 |
+| **6. 안정화 및 발표 준비**              | 10월 31일 ~ 11월 2일 | 배포 환경에서의 최종 버그 픽스 및 서비스 안정화, PPT 등 발표 자료 준비 |
+| **7. 최종 발표**                    | 11월 3일 | 프로젝트 결과물 최종 발표 |
+
 
 ---
 
@@ -259,43 +262,45 @@ flowchart TD
 ##  대표 문서
 
 ### 기획 및 요구사항
-- [프로젝트 개요](https://github.com/SynergySign/signbell-docs/blob/main/01_Planning/SignBell_프로젝트%20개요.md)
-- [기획 배경 및 동기](https://github.com/SynergySign/signbell-docs/blob/main/01_Planning/SignBell_기획%20배경%20및%20동기.md)
-- [사용자 페르소나](https://github.com/SynergySign/signbell-docs/blob/main/01_Planning/SignBell_사용자%20페르소나.md)
-- [역할분담 명세서](https://github.com/SynergySign/signbell-docs/blob/main/01_Planning/SignBell_역할분담%20명세서.md)
+- [프로젝트 개요](https://github.com/SynergySign/SignBell-Docs/blob/dev/01_Planning/SignBell_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B0%9C%EC%9A%94.md)
+- [기획 배경 및 동기](https://github.com/SynergySign/SignBell-Docs/blob/dev/01_Planning/SignBell_%EA%B8%B0%ED%9A%8D%20%EB%B0%B0%EA%B2%BD%20%EB%B0%8F%20%EB%8F%99%EA%B8%B0.md)
+- [사용자 페르소나](https://github.com/SynergySign/SignBell-Docs/blob/dev/01_Planning/SignBell_%EC%82%AC%EC%9A%A9%EC%9E%90%20%ED%8E%98%EB%A5%B4%EC%86%8C%EB%82%98.md)
+- [역할분담 명세서](https://github.com/SynergySign/SignBell-Docs/blob/dev/01_Planning/SignBell_%EC%97%AD%ED%95%A0%EB%B6%84%EB%8B%B4%20%EB%AA%85%EC%84%B8%EC%84%9C.md)
 
 ### 시스템 설계 및 명세
-- [시스템 아키텍처](https://github.com/SynergySign/signbell-docs/blob/main/02_Architecture/SignBell_시스템_아키텍처.md)
-- [기술 스택](https://github.com/SynergySign/signbell-docs/blob/main/02_Architecture/SignBell_기술%20스택.md)
-- [개념 ERD 명세서](https://github.com/SynergySign/signbell-docs/blob/main/02_Architecture/SignBell_개념_ERD_명세서.md)
-- [논리 ERD 명세서](https://github.com/SynergySign/signbell-docs/blob/main/02_Architecture/SignBell_논리_ERD_명세서.md)
-- [API 명세서 (REST)](https://github.com/SynergySign/signbell-docs/blob/main/03_Specifications/SignBell_API_명세서.md)
-- [WebSocket API 명세서](https://github.com/SynergySign/signbell-docs/blob/main/03_Specifications/SignBell_실시간_수어_퀴즈_WebSocket_API_명세서.md)
-- [기능 요구사항 명세서](https://github.com/SynergySign/signbell-docs/blob/main/03_Specifications/SignBell_기능_요구사항_명세서.md)
+- [시스템 아키텍처](https://github.com/SynergySign/SignBell-Docs/blob/dev/02_Architecture/SignBell%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)
+- [기술 스택](https://github.com/SynergySign/SignBell-Docs/blob/dev/02_Architecture/SignBell_%EA%B8%B0%EC%88%A0%20%EC%8A%A4%ED%83%9D.md)
+- [개념 ERD 명세서](https://github.com/SynergySign/SignBell-Docs/blob/dev/02_Architecture/SignBell%20-%20%EA%B0%9C%EB%85%90%20ERD%20%EB%AA%85%EC%84%B8%EC%84%9C.md)
+- [논리 ERD 명세서](https://github.com/SynergySign/SignBell-Docs/blob/dev/02_Architecture/SignBell-%20%EB%85%BC%EB%A6%AC%20ERD%20%EB%AA%85%EC%84%B8%EC%84%9C.md)
+- [API 명세서 (REST)](https://github.com/SynergySign/SignBell-Docs/blob/dev/03_Specifications/SignBell%20-%20API%20%EB%AA%85%EC%84%B8%EC%84%9C.md)
+- [WebSocket API 명세서](https://github.com/SynergySign/SignBell-Docs/blob/dev/03_Specifications/SignBell_%EC%8B%A4%EC%8B%9C%EA%B0%84%20%EC%88%98%EC%96%B4%20%ED%80%B4%EC%A6%88%20Web%20socket%20API%20%EB%AA%85%EC%84%B8%EC%84%9C.md)
+- [기능 요구사항 명세서](https://github.com/SynergySign/SignBell-Docs/blob/dev/01_Planning/SignBell_%EA%B8%B0%EB%8A%A5%20%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EB%AA%85%EC%84%B8%EC%84%9C.md)
 
 ### 개발 가이드
-- [백엔드 설치 및 실행 가이드](https://github.com/SynergySign/signbell-docs/blob/main/04_Guides/setup/Backend_Setup_Guide.md)
-- [프론트엔드 설치 및 실행 가이드](https://github.com/SynergySign/signbell-docs/blob/main/04_Guides/setup/Frontend_Setup_Guide.md)
-- [FastAPI 설치 및 실행 가이드](https://github.com/SynergySign/signbell-docs/blob/main/04_Guides/setup/FastAPI_Setup_Guide.md)
-- [수어인식 서버 기술 명세서](https://github.com/SynergySign/signbell-docs/blob/main/04_Guides/technical/수어인식_서버_기술_명세서.md)
-- [클라이언트-수어인식 파이프라인](https://github.com/SynergySign/signbell-docs/blob/main/04_Guides/technical/클라이언트_수어인식_파이프라인.md)
+- [백엔드 및 프론트엔드 설치 및 실행 가이드](https://github.com/SynergySign/SignBell-App/blob/dev/README.md)
+- [FastAPI 설치 및 실행 가이드](https://github.com/SynergySign/SignBell-FASTAPI/blob/dev/README.md)
+- [머신 러닝 설치 및 실행 가이드](https://github.com/SynergySign/SignBell-ML)
+- [수어인식 서버 기술 명세서](https://github.com/SynergySign/SignBell-Docs/blob/dev/03_Specifications/SignBell%20-%20%EC%88%98%EC%96%B4%EC%9D%B8%EC%8B%9D%EC%84%9C%EB%B2%84%20%EA%B8%B0%EC%88%A0%EB%AA%85%EC%84%B8%EC%84%9C.md)
+- [클라이언트-수어인식 파이프라인](https://github.com/SynergySign/SignBell-Docs/blob/dev/03_Specifications/SignBell%20-%20%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%20-%20FAST%20API%20%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8.md)
 
 ### 정책 및 약관
-- [서비스 이용약관](https://github.com/SynergySign/signbell-docs/blob/main/05_Policies/SignBell_서비스_이용약관.md)
-- [개인정보처리방침](https://github.com/SynergySign/signbell-docs/blob/main/05_Policies/SignBell_개인정보처리방침.md)
+- [서비스 필수 이용약관](https://github.com/SynergySign/SignBell-Docs/blob/dev/05_Policies/SignBell%20-%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%ED%95%84%EC%88%98%20%EB%8F%99%EC%9D%98%20%EC%95%BD%EA%B4%80.md)
+- [서비스 선택 이용약관](https://github.com/SynergySign/SignBell-Docs/blob/dev/05_Policies/SignBell%20-%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%84%A0%ED%83%9D%20%EB%8F%99%EC%9D%98%20%EC%95%BD%EA%B4%80.md)
+- [법적 리스크](https://github.com/SynergySign/SignBell-Docs/blob/dev/05_Policies/legal/SignBell_%EB%B2%95%EC%A0%81%20%EB%A6%AC%EC%8A%A4%ED%81%AC.md)
 
 ### 전체 문서 폴더
-- [01_Planning](https://github.com/SynergySign/signbell-docs/tree/main/01_Planning) - 프로젝트 기획 문서
-- [02_Architecture](https://github.com/SynergySign/signbell-docs/tree/main/02_Architecture) - 시스템 아키텍처 및 설계 문서
-- [03_Specifications](https://github.com/SynergySign/signbell-docs/tree/main/03_Specifications) - 프로젝트 세부 스펙 문서
-- [04_Guides](https://github.com/SynergySign/signbell-docs/tree/main/04_Guides) - 프로젝트 내부 규칙 및 개발 가이드
-- [05_Policies](https://github.com/SynergySign/signbell-docs/tree/main/05_Policies) - 프로젝트 정책 관련 문서
-- [06_meeting-notes](https://github.com/SynergySign/signbell-docs/tree/main/06_meeting-notes) - 프로젝트 회의록
-- [assets](https://github.com/SynergySign/signbell-docs/tree/main/assets) - 이미지, 다이어그램
+- [01_Planning](https://github.com/SynergySign/SignBell-Docs/tree/dev/01_Planning) - 프로젝트 기획 문서
+- [02_Architecture](https://github.com/SynergySign/SignBell-Docs/tree/dev/02_Architecture) - 시스템 아키텍처 및 설계 문서
+- [03_Specifications](https://github.com/SynergySign/SignBell-Docs/tree/dev/03_Specifications) - 프로젝트 세부 스펙 문서
+- [04_Guides](https://github.com/SynergySign/SignBell-Docs/tree/dev/04_Guides) - 프로젝트 내부 규칙 및 개발 가이드
+- [05_Policies](https://github.com/SynergySign/SignBell-Docs/tree/dev/05_Policies) - 프로젝트 정책 관련 문서
+- [06_meeting-notes](https://github.com/SynergySign/SignBell-Docs/tree/dev/06_meeting-notes) - 프로젝트 회의록
+- [07_troubleShooting](https://github.com/SynergySign/SignBell-Docs/tree/dev/07_troubleshooting) - 팀,개인 트러블 슈팅
+- [08_ml-development](https://github.com/SynergySign/SignBell-Docs/tree/dev/08_ml-development) - 수어 인식 모델 개발 과정
 
 ### 협업 규칙 & 기여 문서
-- [문서 버전 관리 규칙](https://github.com/SynergySign/signbell-docs/blob/main/04_Guides/collaboration/doc-versioning-rules.md)
-- [Git 워크플로우 규칙](https://github.com/SynergySign/signbell-docs/blob/main/04_Guides/collaboration/git-workflow.md)
+- [문서 버전 관리 규칙](https://github.com/SynergySign/SignBell-Docs/blob/dev/04_Guides/collaboration/doc-versioning-rules.md)
+- [Git 워크플로우 규칙](https://github.com/SynergySign/SignBell-Docs/blob/dev/04_Guides/collaboration/git-workflow.md)
 
 -----
 
@@ -336,6 +341,8 @@ flowchart TD
     * 다국어 수어 지원 (ASL, BSL 등)
     * 다국어 UI/UX
     * 글로벌 커뮤니티 구축
+
+> 자세한 내용은 [프로젝트 로드맵](https://github.com/SynergySign/SignBell-Docs/blob/dev/01_Planning/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EB%A1%9C%EB%93%9C%EB%A7%B5%20%EB%AA%85%EC%84%B8%EC%84%9C.md) 문서를 참고 바랍니다.
 
 ---
 
