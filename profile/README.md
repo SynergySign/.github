@@ -133,13 +133,13 @@ SignBell의 목표는 "수어가 소수만의 언어가 아닌, 누구나 쉽게
 
 ## 팀 구성
 
-| 역할 | 이름 | 주요 담당 기능                                                        | GitHub |
+| 역할 | 이름 | 주요 담당 기능                                                        | 회고록 |
 | --- | --- |-----------------------------------------------------------------| --- |
-| 팀장 | [신동준](https://github.com/sdj3959) | Frontend Lead, UI/UX 디자인, 인프라 구축 (AWS EC2/S3/RDS, Kubernetes)   | [@sdj3959](https://github.com/sdj3959) |
-| 팀원 | [고동현](https://github.com/rhehdgus8831) | Backend Lead (게임 로직), Frontend Janus WebRTC 연동, 시스템 아키텍처 설계     | [@rhehdgus8831](https://github.com/rhehdgus8831) |
-| 팀원 | [백승현](https://github.com/sirosho) | AI/ML Lead, FastAPI 서버 구축, 개인 학습 페이지 개발                         | [@sirosho](https://github.com/sirosho) |
-| 팀원 | [송민재](https://github.com/songkey06) | Backend (인증/인가), 카카오 SSO, 마이페이지, DevOps 지원                      | [@songkey06](https://github.com/songkey06) |
-| 팀원 | [강관주](https://github.com/Kanggwanju) | Full-Stack (대기방/게임방),Frontend Janus WebRTC 연동, 무한 스크롤, 전역 예외 처리 | [@Kanggwanju](https://github.com/Kanggwanju) |
+| 팀장 | [신동준](https://github.com/sdj3959) | Frontend Lead, UI/UX 디자인, 인프라 구축 (AWS EC2/S3/RDS, Kubernetes)   | [신동준 회고록](https://github.com/sdj3959/my-retrospectives/tree/0093a56859893ab975c26f259728a52fc0b5aca0/projects/202509SignBell) |
+| 팀원 | [고동현](https://github.com/rhehdgus8831) | Backend Lead (게임 로직), Frontend Janus WebRTC 연동, 시스템 아키텍처 설계     | [고동현 회고록](https://github.com/rhehdgus8831/Project-retrospective/tree/main/signbell) |
+| 팀원 | [백승현](https://github.com/sirosho) | AI/ML Lead, FastAPI 서버 구축, 개인 학습 페이지 개발                         | [백승현 회고록](https://github.com/Sirosho/project-memoir) |
+| 팀원 | [송민재](https://github.com/songkey06) | Backend (인증/인가), 카카오 SSO, 마이페이지, DevOps 지원                      | [송민재 회고록](https://github.com/songkey06/memories/tree/main/SignBell) |
+| 팀원 | [강관주](https://github.com/Kanggwanju) | Full-Stack (대기방/게임방),Frontend Janus WebRTC 연동, 무한 스크롤, 전역 예외 처리 | [강관주 회고록](https://github.com/Kanggwanju/SynergySign-project-notes/tree/main/retrospective) |
 
 ---
 
