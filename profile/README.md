@@ -64,14 +64,9 @@
 
 <p align="center">
   <a href="00_PPT/SynergySign%20PPT.pdf">
-    <img src="https://img.shields.io/badge/📄_발표_PPT-FF6B6B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="발표 PPT" />
+    <img src="https://img.shields.io/badge/📄_발표_자료-FF6B6B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="https://github.com/SynergySign/SignBell-Docs/tree/dev/00_PPT" />
   </a>
-  <a href="00_PPT/SignBell%20-%20시연영상.mp4">
-    <img src="https://img.shields.io/badge/🎬_시연_영상-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="시연 영상" />
-  </a>
-  <a href="00_PPT/SignBell_발표대본.md">
-    <img src="https://img.shields.io/badge/📝_발표_대본-00C853?style=for-the-badge&logo=markdown&logoColor=white" alt="발표 대본" />
-  </a>
+  
 </p>
 
 > **참고**: 대용량 파일(PPT, 시연영상)은 Git LFS로 관리됩니다. 클론 시 Git LFS 설치가 필요합니다.
