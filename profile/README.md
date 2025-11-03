@@ -63,9 +63,11 @@
 ### 📊 프로젝트 발표 자료
 
 <p align="center">
-  <a href="00_PPT/SynergySign%20PPT.pdf">
-    <img src="https://img.shields.io/badge/📄_발표_자료-FF6B6B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="https://github.com/SynergySign/SignBell-Docs/tree/dev/00_PPT" />
+  <a href="https://github.com/SynergySign/SignBell-Docs/tree/dev/00_PPT">
+    <img src="https://img.shields.io/badge/📄_발표_자료-FF6B6B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="발표 자료" />
   </a>
+</p>
+
   
 </p>
 
