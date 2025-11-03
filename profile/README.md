@@ -17,6 +17,7 @@
 
 - [프로젝트 정보](#프로젝트-정보)
 - [Getting Started](#getting-started)
+- [발표 자료](#발표-자료)
 - [프로젝트 비전](#프로젝트-비전)
     - [SignBell이 해결하는 문제](#signbell이-해결하는-문제)
     - [SignBell의 철학](#signbell의-철학)
@@ -54,6 +55,37 @@
 - [머신 러닝 설치 및 실행 가이드](https://github.com/SynergySign/SignBell-ML)
 - [API 스펙 명세서](https://github.com/SynergySign/SignBell-Docs/tree/dev/03_Specifications)
 - [시스템 아키텍처](https://github.com/SynergySign/SignBell-Docs/blob/dev/02_Architecture/SignBell%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)
+
+---
+
+##  발표 자료
+
+### 📊 프로젝트 발표 자료
+
+<p align="center">
+  <a href="00_PPT/SynergySign%20PPT.pdf">
+    <img src="https://img.shields.io/badge/📄_발표_PPT-FF6B6B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="발표 PPT" />
+  </a>
+  <a href="00_PPT/SignBell%20-%20시연영상.mp4">
+    <img src="https://img.shields.io/badge/🎬_시연_영상-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="시연 영상" />
+  </a>
+  <a href="00_PPT/SignBell_발표대본.md">
+    <img src="https://img.shields.io/badge/📝_발표_대본-00C853?style=for-the-badge&logo=markdown&logoColor=white" alt="발표 대본" />
+  </a>
+</p>
+
+> **참고**: 대용량 파일(PPT, 시연영상)은 Git LFS로 관리됩니다. 클론 시 Git LFS 설치가 필요합니다.
+> 
+> ```bash
+> # Git LFS 설치 (Windows)
+> winget install -e --id GitHub.GitLFS
+> 
+> # Git LFS 초기화
+> git lfs install
+> 
+> # 저장소 클론
+> git clone https://github.com/SynergySign/SignBell-Docs.git
+> ```
 
 ---
 
@@ -294,14 +326,15 @@ flowchart TD
 - [법적 리스크](https://github.com/SynergySign/SignBell-Docs/blob/dev/05_Policies/legal/SignBell_%EB%B2%95%EC%A0%81%20%EB%A6%AC%EC%8A%A4%ED%81%AC.md)
 
 ### 전체 문서 폴더
-- [01_Planning](https://github.com/SynergySign/SignBell-Docs/tree/dev/01_Planning) - 프로젝트 기획 문서
-- [02_Architecture](https://github.com/SynergySign/SignBell-Docs/tree/dev/02_Architecture) - 시스템 아키텍처 및 설계 문서
-- [03_Specifications](https://github.com/SynergySign/SignBell-Docs/tree/dev/03_Specifications) - 프로젝트 세부 스펙 문서
-- [04_Guides](https://github.com/SynergySign/SignBell-Docs/tree/dev/04_Guides) - 프로젝트 내부 규칙 및 개발 가이드
-- [05_Policies](https://github.com/SynergySign/SignBell-Docs/tree/dev/05_Policies) - 프로젝트 정책 관련 문서
-- [06_meeting-notes](https://github.com/SynergySign/SignBell-Docs/tree/dev/06_meeting-notes) - 프로젝트 회의록
-- [07_troubleShooting](https://github.com/SynergySign/SignBell-Docs/tree/dev/07_troubleshooting) - 팀,개인 트러블 슈팅
-- [08_ml-development](https://github.com/SynergySign/SignBell-Docs/tree/dev/08_ml-development) - 수어 인식 모델 개발 과정
+- [00_PPT](https://github.com/SynergySign/SignBell-Docs/tree/dev/00_PPT) -  발표 자료 (PPT, 시연영상, 발표대본)
+- [01_Planning](https://github.com/SynergySign/SignBell-Docs/tree/dev/01_Planning) -  프로젝트 기획 문서
+- [02_Architecture](https://github.com/SynergySign/SignBell-Docs/tree/dev/02_Architecture) -  시스템 아키텍처 및 설계 문서
+- [03_Specifications](https://github.com/SynergySign/SignBell-Docs/tree/dev/03_Specifications) -  프로젝트 세부 스펙 문서
+- [04_Guides](https://github.com/SynergySign/SignBell-Docs/tree/dev/04_Guides) -  프로젝트 내부 규칙 및 개발 가이드
+- [05_Policies](https://github.com/SynergySign/SignBell-Docs/tree/dev/05_Policies) -  프로젝트 정책 관련 문서
+- [06_meeting-notes](https://github.com/SynergySign/SignBell-Docs/tree/dev/06_meeting-notes) -  프로젝트 회의록
+- [07_troubleShooting](https://github.com/SynergySign/SignBell-Docs/tree/dev/07_troubleshooting) -  팀, 개인 트러블 슈팅
+- [08_ml-development](https://github.com/SynergySign/SignBell-Docs/tree/dev/08_ml-development) -  수어 인식 모델 개발 과정
 
 ### 협업 규칙 & 기여 문서
 - [문서 버전 관리 규칙](https://github.com/SynergySign/SignBell-Docs/blob/dev/04_Guides/collaboration/doc-versioning-rules.md)
